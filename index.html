@@ -97,7 +97,28 @@
                 </div>
                 <a href="ehospital.html" class="nav-item nav-link">E'Hospital</a>
             </div>
-            <a href="appointment.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="d-flex align-items-center">
+                <!-- Auth Buttons for Desktop -->
+                <div class="d-none d-lg-flex me-3">
+                    <a href="login.html" class="btn btn-outline-primary me-2 px-3 py-2" style="border-radius: 25px;">
+                        <i class="fas fa-sign-in-alt me-1"></i>Sign In/<br>Sign Up 
+                    </a>
+                    <!-- <a href="auth.html#signup" class="btn btn-light me-3 px-3 py-2 text-primary" style="border-radius: 25px; border: 1px solid #dee2e6;">
+                        <i class="fas fa-user-plus me-1"></i>Sign Up -->
+                    </a>
+                </div>
+                <!-- Mobile Auth Buttons -->
+                <div class="d-lg-none dropdown me-3">
+                    <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" style="border-radius: 25px;">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="auth.html"><i class="fas fa-sign-in-alt me-2"></i>Sign In</a></li>
+                        <!-- <li><a class="dropdown-item" href="auth.html#signup"><i class="fas fa-user-plus me-2"></i>Sign Up</a></li> -->
+                    </ul>
+                </div>
+                <a href="appointment.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
         </div>
     </nav>
     <!-- Navbar End -->
